@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3578603B29072460E67DA48159694DA1 /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628B18138054D621E588EB99FC1558C /* DoublyLinkedList.swift */; };
+		41179A9BD05BC7DBCEECD1586AF42630 /* Pods-CacheLRU_Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9476241AF20D8193581D7977F78E1878 /* Pods-CacheLRU_Demo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		596DDEAC8B088A0EA8E1DBEEFF05FC36 /* Pods-CacheLRU_Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C09E17AD1AEC543FDF13D73E2E2A2E /* Pods-CacheLRU_Demo-dummy.m */; };
+		827216C11F01F84034CFABE8E92FB2FF /* CacheLRU-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB521EE39E200541126B428BB012D8 /* CacheLRU-dummy.m */; };
+		A795413E5002AC8DCA97FBB5A3234BDC /* CacheLRU-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0C2FF718F6C33C6AC9B892AF37C6E3 /* CacheLRU-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF49AB8E43BAA13573AF4A58D7E35D4C /* CacheLRU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9BA7502B8C0D1CFFA649D3C06BCCD4 /* CacheLRU.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8CAEE8199B9B852ADFD0EB152677C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69803AA81FE6686519C3B3120FE88C26;
+			remoteInfo = CacheLRU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38CBABE7DD1B67A411085DC565E4151A /* Pods-CacheLRU_Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CacheLRU_Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F6A440B6BC1193B44CBF20DE0590B3C /* Pods-CacheLRU_Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CacheLRU_Demo.modulemap"; sourceTree = "<group>"; };
+		43BC6C9A277B7F377FE0046106AB1484 /* libPods-CacheLRU_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CacheLRU_Demo.a"; path = "libPods-CacheLRU_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6628B18138054D621E588EB99FC1558C /* DoublyLinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublyLinkedList.swift; path = Classes/DoublyLinkedList.swift; sourceTree = "<group>"; };
+		71CEC4C095762A17789F5E92E4103E7F /* CacheLRU.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CacheLRU.modulemap; sourceTree = "<group>"; };
+		72B5F830FFC9486CB88032C874B5FD5D /* CacheLRU.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CacheLRU.xcconfig; sourceTree = "<group>"; };
+		8BB7190BFD805DE4E4E61717C45862D8 /* libCacheLRU.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCacheLRU.a; path = libCacheLRU.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9BA7502B8C0D1CFFA649D3C06BCCD4 /* CacheLRU.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheLRU.swift; path = Classes/CacheLRU.swift; sourceTree = "<group>"; };
+		9476241AF20D8193581D7977F78E1878 /* Pods-CacheLRU_Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CacheLRU_Demo-umbrella.h"; sourceTree = "<group>"; };
+		94DCF7BC4960DEE927FD72796D2B7E28 /* CacheLRU.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CacheLRU.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98847EB4FB8C73508533E0AC87C82A83 /* Pods-CacheLRU_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CacheLRU_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00A3A3FC06CDB3FCB80A21F8F53121F /* Pods-CacheLRU_Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CacheLRU_Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2478A9D2F3CDDA304E10726687FC231 /* CacheLRU-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheLRU-prefix.pch"; sourceTree = "<group>"; };
+		D3C09E17AD1AEC543FDF13D73E2E2A2E /* Pods-CacheLRU_Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CacheLRU_Demo-dummy.m"; sourceTree = "<group>"; };
+		D523DFAA4AE9333A3F4A9496898193F0 /* Pods-CacheLRU_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CacheLRU_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		DC0C2FF718F6C33C6AC9B892AF37C6E3 /* CacheLRU-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheLRU-umbrella.h"; sourceTree = "<group>"; };
+		F4BB521EE39E200541126B428BB012D8 /* CacheLRU-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CacheLRU-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30EB467AB043E736FB971F3C9B951A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBD344FCE75329E69E9DCC4DEA4BA59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5D8E76051B789D3773FD43E9F54189 /* Pods-CacheLRU_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A440B6BC1193B44CBF20DE0590B3C /* Pods-CacheLRU_Demo.modulemap */,
+				A00A3A3FC06CDB3FCB80A21F8F53121F /* Pods-CacheLRU_Demo-acknowledgements.markdown */,
+				38CBABE7DD1B67A411085DC565E4151A /* Pods-CacheLRU_Demo-acknowledgements.plist */,
+				D3C09E17AD1AEC543FDF13D73E2E2A2E /* Pods-CacheLRU_Demo-dummy.m */,
+				9476241AF20D8193581D7977F78E1878 /* Pods-CacheLRU_Demo-umbrella.h */,
+				98847EB4FB8C73508533E0AC87C82A83 /* Pods-CacheLRU_Demo.debug.xcconfig */,
+				D523DFAA4AE9333A3F4A9496898193F0 /* Pods-CacheLRU_Demo.release.xcconfig */,
+			);
+			name = "Pods-CacheLRU_Demo";
+			path = "Target Support Files/Pods-CacheLRU_Demo";
+			sourceTree = "<group>";
+		};
+		2BEB24F1E422394D8F381EA90F224D7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB7190BFD805DE4E4E61717C45862D8 /* libCacheLRU.a */,
+				43BC6C9A277B7F377FE0046106AB1484 /* libPods-CacheLRU_Demo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		357828CD40C27FC2363C40E21FB97954 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B5D8E76051B789D3773FD43E9F54189 /* Pods-CacheLRU_Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		572BD67750A4C0345AEC9A7C6CA4C77B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C68EE54FE4D230E711843BB91FEBE00F /* CacheLRU */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9572FBDAD6443EF81C86FE9F202D918C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94DCF7BC4960DEE927FD72796D2B7E28 /* CacheLRU.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A4692AB648C0634D61A71B55A672F994 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71CEC4C095762A17789F5E92E4103E7F /* CacheLRU.modulemap */,
+				72B5F830FFC9486CB88032C874B5FD5D /* CacheLRU.xcconfig */,
+				F4BB521EE39E200541126B428BB012D8 /* CacheLRU-dummy.m */,
+				C2478A9D2F3CDDA304E10726687FC231 /* CacheLRU-prefix.pch */,
+				DC0C2FF718F6C33C6AC9B892AF37C6E3 /* CacheLRU-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "CacheLRU_Demo/Pods/Target Support Files/CacheLRU";
+			sourceTree = "<group>";
+		};
+		C68EE54FE4D230E711843BB91FEBE00F /* CacheLRU */ = {
+			isa = PBXGroup;
+			children = (
+				8E9BA7502B8C0D1CFFA649D3C06BCCD4 /* CacheLRU.swift */,
+				6628B18138054D621E588EB99FC1558C /* DoublyLinkedList.swift */,
+				9572FBDAD6443EF81C86FE9F202D918C /* Pod */,
+				A4692AB648C0634D61A71B55A672F994 /* Support Files */,
+			);
+			name = CacheLRU;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				572BD67750A4C0345AEC9A7C6CA4C77B /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				2BEB24F1E422394D8F381EA90F224D7E /* Products */,
+				357828CD40C27FC2363C40E21FB97954 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		553557D00576860F44DB0E034A53BCD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A795413E5002AC8DCA97FBB5A3234BDC /* CacheLRU-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA5BC2BAC7F6C18F4D9DBADBCDA23D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41179A9BD05BC7DBCEECD1586AF42630 /* Pods-CacheLRU_Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DE8A0177EE994D2C53A0AA8279FAF7E /* Pods-CacheLRU_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF225716264D6411A678491CBFCBD619 /* Build configuration list for PBXNativeTarget "Pods-CacheLRU_Demo" */;
+			buildPhases = (
+				8AA5BC2BAC7F6C18F4D9DBADBCDA23D2 /* Headers */,
+				DCE9285FC4DF8EC225CFAC47A5D310C0 /* Sources */,
+				EBBD344FCE75329E69E9DCC4DEA4BA59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5306A0CBAFE13B495826175C0FB7C86 /* PBXTargetDependency */,
+			);
+			name = "Pods-CacheLRU_Demo";
+			productName = "Pods-CacheLRU_Demo";
+			productReference = 43BC6C9A277B7F377FE0046106AB1484 /* libPods-CacheLRU_Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69803AA81FE6686519C3B3120FE88C26 /* CacheLRU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9CD9A2DB04F046EC5189D7E9328423 /* Build configuration list for PBXNativeTarget "CacheLRU" */;
+			buildPhases = (
+				553557D00576860F44DB0E034A53BCD3 /* Headers */,
+				2AB91CAC2F2D5E142A7BE4AADDCA71EC /* Sources */,
+				D30EB467AB043E736FB971F3C9B951A5 /* Frameworks */,
+				EFF4EE82E13FFCF59F38F1BD09DB3F98 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CacheLRU;
+			productName = CacheLRU;
+			productReference = 8BB7190BFD805DE4E4E61717C45862D8 /* libCacheLRU.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2BEB24F1E422394D8F381EA90F224D7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69803AA81FE6686519C3B3120FE88C26 /* CacheLRU */,
+				4DE8A0177EE994D2C53A0AA8279FAF7E /* Pods-CacheLRU_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFF4EE82E13FFCF59F38F1BD09DB3F98 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/CacheLRU/CacheLRU.modulemap",
+				"${PODS_ROOT}/Headers/Public/CacheLRU/CacheLRU-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/CacheLRU-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CacheLRU/CacheLRU.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CacheLRU/CacheLRU-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB91CAC2F2D5E142A7BE4AADDCA71EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827216C11F01F84034CFABE8E92FB2FF /* CacheLRU-dummy.m in Sources */,
+				CF49AB8E43BAA13573AF4A58D7E35D4C /* CacheLRU.swift in Sources */,
+				3578603B29072460E67DA48159694DA1 /* DoublyLinkedList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE9285FC4DF8EC225CFAC47A5D310C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596DDEAC8B088A0EA8E1DBEEFF05FC36 /* Pods-CacheLRU_Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5306A0CBAFE13B495826175C0FB7C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CacheLRU;
+			target = 69803AA81FE6686519C3B3120FE88C26 /* CacheLRU */;
+			targetProxy = F8CAEE8199B9B852ADFD0EB152677C91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01FA7F474D130471961C25192140E974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D523DFAA4AE9333A3F4A9496898193F0 /* Pods-CacheLRU_Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CacheLRU_Demo/Pods-CacheLRU_Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FA89144A3E2E3EC5333700387B10173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B5F830FFC9486CB88032C874B5FD5D /* CacheLRU.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CacheLRU/CacheLRU-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/CacheLRU/CacheLRU.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CacheLRU;
+				PRODUCT_NAME = CacheLRU;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61C5C4F08F8E8CE1D013531171352EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B5F830FFC9486CB88032C874B5FD5D /* CacheLRU.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CacheLRU/CacheLRU-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/CacheLRU/CacheLRU.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CacheLRU;
+				PRODUCT_NAME = CacheLRU;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBE0ADDE5CB1051A92258055F530B18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98847EB4FB8C73508533E0AC87C82A83 /* Pods-CacheLRU_Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CacheLRU_Demo/Pods-CacheLRU_Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9CD9A2DB04F046EC5189D7E9328423 /* Build configuration list for PBXNativeTarget "CacheLRU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C5C4F08F8E8CE1D013531171352EDC /* Debug */,
+				4FA89144A3E2E3EC5333700387B10173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF225716264D6411A678491CBFCBD619 /* Build configuration list for PBXNativeTarget "Pods-CacheLRU_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE0ADDE5CB1051A92258055F530B18B /* Debug */,
+				01FA7F474D130471961C25192140E974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

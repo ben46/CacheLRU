@@ -1,0 +1,6 @@
+module CacheLRU {
+  umbrella header "CacheLRU-umbrella.h"
+
+  export *
+  module * { export * }
+}

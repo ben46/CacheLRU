@@ -1,0 +1,6 @@
+module Pods_CacheLRU_Demo {
+  umbrella header "Pods-CacheLRU_Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

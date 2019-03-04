@@ -1,0 +1,2 @@
+target 'CacheLRU_Demo'
+pod 'CacheLRU', :path => '../'
