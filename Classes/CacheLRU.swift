@@ -20,12 +20,21 @@ public final class CacheLRU<Key: Hashable, Value> {
         semaphore.signal()
     }
     
+    public func getAllValues() -> [Value]{
+        var values = [Value]()
+        for node in nodesDict {
+            values.append(node.value.payload.value)
+        }
+        return values    
+    }
+    
     public init(capacity: Int) {
         self.capacity = max(0, capacity)
         self.semaphore = DispatchSemaphore(value: 1)
     }
     
-    public func setValue(_ value: Value, for key: Key) {
+    public func setValue(_ value: Value, for key: Key) -> Value?{
+        var retValue : CachePayload?
         self.lock() // 加锁
         let payload = CachePayload(key: key, value: value)
         if let node = nodesDict[key] { // 字典中查找节点
@@ -38,10 +47,20 @@ public final class CacheLRU<Key: Hashable, Value> {
         
         if list.count > capacity { // 如果超出capacity
             let nodeRemoved = list.removeLast() // 删除最后一个节点
+            retValue = nodeRemoved?.payload
             if let key = nodeRemoved?.payload.key {
                 nodesDict[key] = nil // 并且把字典中的值社为空
             }
         }
+        self.unlock() // 操作完成, 解锁
+        return retValue?.value
+    }
+    
+    public func removeValue(for key:Key){
+        guard let node = nodesDict[key] else { return }
+        self.lock() // 加锁
+        list.removeNode(node)
+        nodesDict[key] = nil // 并且把字典中的值社为空
         self.unlock() // 操作完成, 解锁
     }
     

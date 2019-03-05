@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "周卓潜" => "ben02060846@gmail.com" } 
 
   spec.platform     = :ios
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "9.0"
  
 
   spec.source       = { :git => "git@github.com:ben46/CacheLRU.git", :branch => "master" }

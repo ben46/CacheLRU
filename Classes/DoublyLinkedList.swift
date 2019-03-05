@@ -54,6 +54,20 @@ final class DoublyLinkedList<T> {
         self.head = node
     }
     
+    public func removeNode(_ node: Node<T>) {
+        if node === head {
+            guard let nx = node.next else {return}
+            self.moveToHead(nx)
+        } else if node === tail {
+            self.removeLast()
+        } else {
+            node.previous?.next = node.next
+            node.next?.previous = node.previous
+        }
+        node.next = nil
+        node.previous = nil
+    }
+    
     func removeLast() -> Node<T>? {
         guard let tail = self.tail else { return nil }
         
