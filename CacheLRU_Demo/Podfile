@@ -1,2 +1,3 @@
 target 'CacheLRU_Demo'
+use_frameworks!
 pod 'CacheLRU', :path => '../'

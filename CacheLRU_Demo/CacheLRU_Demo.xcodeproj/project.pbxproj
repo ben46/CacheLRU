@@ -12,10 +12,11 @@
 		0B690CEA222CB5C10065748E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B690CE8222CB5C10065748E /* Main.storyboard */; };
 		0B690CEC222CB5C20065748E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B690CEB222CB5C20065748E /* Assets.xcassets */; };
 		0B690CEF222CB5C20065748E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B690CED222CB5C20065748E /* LaunchScreen.storyboard */; };
-		8424833AD24DAD8AA5EB8E79 /* libPods-CacheLRU_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 859B68B2797D1F802CA82C19 /* libPods-CacheLRU_Demo.a */; };
+		DA273A51F172CDCB0F2FC10B /* libPods-CacheLRU_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0313837C51874C4268621CC9 /* libPods-CacheLRU_Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0313837C51874C4268621CC9 /* libPods-CacheLRU_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CacheLRU_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B690CE1222CB5C10065748E /* CacheLRU_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CacheLRU_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B690CE4222CB5C10065748E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B690CE6222CB5C10065748E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,7 +25,6 @@
 		0B690CEE222CB5C20065748E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B690CF0222CB5C20065748E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82E348713A62E5CD2805D919 /* Pods-CacheLRU_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheLRU_Demo.debug.xcconfig"; path = "Target Support Files/Pods-CacheLRU_Demo/Pods-CacheLRU_Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		859B68B2797D1F802CA82C19 /* libPods-CacheLRU_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CacheLRU_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA67C6E330D38CD6948087D /* Pods-CacheLRU_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheLRU_Demo.release.xcconfig"; path = "Target Support Files/Pods-CacheLRU_Demo/Pods-CacheLRU_Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8424833AD24DAD8AA5EB8E79 /* libPods-CacheLRU_Demo.a in Frameworks */,
+				DA273A51F172CDCB0F2FC10B /* libPods-CacheLRU_Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 		73732BBE4D6B85B0A8874630 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				859B68B2797D1F802CA82C19 /* libPods-CacheLRU_Demo.a */,
+				0313837C51874C4268621CC9 /* libPods-CacheLRU_Demo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,7 +85,6 @@
 				82E348713A62E5CD2805D919 /* Pods-CacheLRU_Demo.debug.xcconfig */,
 				DDA67C6E330D38CD6948087D /* Pods-CacheLRU_Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

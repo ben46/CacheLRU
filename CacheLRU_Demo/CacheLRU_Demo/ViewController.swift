@@ -14,8 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let cache = CacheLRU.init(capacity : 5)
-        cache
+        let cache = CacheLRU<String, Int>.init(capacity : 5)
+        cache.setValue(10, for: "key")
+        print(cache.getValue(for: "key") ?? 0)
         
     }
 

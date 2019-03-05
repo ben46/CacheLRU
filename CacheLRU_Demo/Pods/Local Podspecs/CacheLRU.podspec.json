@@ -7,6 +7,7 @@
     "type": "MIT",
     "file": "FILE_LICENSE"
   },
+  "static_framework": true,
   "authors": {
     "周卓潜": "ben02060846@gmail.com"
   },
@@ -19,7 +20,7 @@
   },
   "source_files": [
     "Classes",
-    "Classes/**/*.{h,m}"
+    "Classes/**/*.{h,m,swift}"
   ],
   "exclude_files": "Classes/Exclude"
 }

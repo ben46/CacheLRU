@@ -1,5 +1,6 @@
+import Foundation
 
-final class CacheLRU<Key: Hashable, Value> {
+public final class CacheLRU<Key: Hashable, Value> {
     
     private struct CachePayload {
         let key: Key
@@ -19,12 +20,12 @@ final class CacheLRU<Key: Hashable, Value> {
         semaphore.signal()
     }
     
-    init(capacity: Int) {
+    public init(capacity: Int) {
         self.capacity = max(0, capacity)
         self.semaphore = DispatchSemaphore(value: 1)
     }
     
-    func setValue(_ value: Value, for key: Key) {
+    public func setValue(_ value: Value, for key: Key) {
         self.lock() // 加锁
         let payload = CachePayload(key: key, value: value)
         if let node = nodesDict[key] { // 字典中查找节点
@@ -44,7 +45,7 @@ final class CacheLRU<Key: Hashable, Value> {
         self.unlock() // 操作完成, 解锁
     }
     
-    func getValue(for key: Key) -> Value? {
+    public func getValue(for key: Key) -> Value? {
         guard let node = nodesDict[key] else { return nil }
         list.moveToHead(node)
         return node.payload.value

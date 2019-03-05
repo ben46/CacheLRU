@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3578603B29072460E67DA48159694DA1 /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628B18138054D621E588EB99FC1558C /* DoublyLinkedList.swift */; };
+		3578603B29072460E67DA48159694DA1 /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A2B4F14C428D9217D6CC8511E857 /* DoublyLinkedList.swift */; };
 		41179A9BD05BC7DBCEECD1586AF42630 /* Pods-CacheLRU_Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9476241AF20D8193581D7977F78E1878 /* Pods-CacheLRU_Demo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		596DDEAC8B088A0EA8E1DBEEFF05FC36 /* Pods-CacheLRU_Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C09E17AD1AEC543FDF13D73E2E2A2E /* Pods-CacheLRU_Demo-dummy.m */; };
-		827216C11F01F84034CFABE8E92FB2FF /* CacheLRU-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB521EE39E200541126B428BB012D8 /* CacheLRU-dummy.m */; };
-		A795413E5002AC8DCA97FBB5A3234BDC /* CacheLRU-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0C2FF718F6C33C6AC9B892AF37C6E3 /* CacheLRU-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CF49AB8E43BAA13573AF4A58D7E35D4C /* CacheLRU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9BA7502B8C0D1CFFA649D3C06BCCD4 /* CacheLRU.swift */; };
+		827216C11F01F84034CFABE8E92FB2FF /* CacheLRU-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2BBA273B6A0E04A27F534E63E9E57 /* CacheLRU-dummy.m */; };
+		A795413E5002AC8DCA97FBB5A3234BDC /* CacheLRU-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E50BB8AEB9A46CAEDC838467511317DE /* CacheLRU-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF49AB8E43BAA13573AF4A58D7E35D4C /* CacheLRU.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77934E642D422A862D5FB601FD8A28B /* CacheLRU.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,24 +26,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18E2BBA273B6A0E04A27F534E63E9E57 /* CacheLRU-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CacheLRU-dummy.m"; sourceTree = "<group>"; };
 		38CBABE7DD1B67A411085DC565E4151A /* Pods-CacheLRU_Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CacheLRU_Demo-acknowledgements.plist"; sourceTree = "<group>"; };
 		3F6A440B6BC1193B44CBF20DE0590B3C /* Pods-CacheLRU_Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CacheLRU_Demo.modulemap"; sourceTree = "<group>"; };
 		43BC6C9A277B7F377FE0046106AB1484 /* libPods-CacheLRU_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CacheLRU_Demo.a"; path = "libPods-CacheLRU_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6628B18138054D621E588EB99FC1558C /* DoublyLinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublyLinkedList.swift; path = Classes/DoublyLinkedList.swift; sourceTree = "<group>"; };
-		71CEC4C095762A17789F5E92E4103E7F /* CacheLRU.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CacheLRU.modulemap; sourceTree = "<group>"; };
-		72B5F830FFC9486CB88032C874B5FD5D /* CacheLRU.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CacheLRU.xcconfig; sourceTree = "<group>"; };
 		8BB7190BFD805DE4E4E61717C45862D8 /* libCacheLRU.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCacheLRU.a; path = libCacheLRU.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E9BA7502B8C0D1CFFA649D3C06BCCD4 /* CacheLRU.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheLRU.swift; path = Classes/CacheLRU.swift; sourceTree = "<group>"; };
 		9476241AF20D8193581D7977F78E1878 /* Pods-CacheLRU_Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CacheLRU_Demo-umbrella.h"; sourceTree = "<group>"; };
-		94DCF7BC4960DEE927FD72796D2B7E28 /* CacheLRU.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CacheLRU.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98847EB4FB8C73508533E0AC87C82A83 /* Pods-CacheLRU_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CacheLRU_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00A3A3FC06CDB3FCB80A21F8F53121F /* Pods-CacheLRU_Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CacheLRU_Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C2478A9D2F3CDDA304E10726687FC231 /* CacheLRU-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheLRU-prefix.pch"; sourceTree = "<group>"; };
+		A48EA4FC187883EC14DEA6F481AAA60F /* CacheLRU.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CacheLRU.xcconfig; sourceTree = "<group>"; };
+		A6F3ADC001AA6AE9B6601CEF24488BC1 /* CacheLRU.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CacheLRU.modulemap; sourceTree = "<group>"; };
+		A77934E642D422A862D5FB601FD8A28B /* CacheLRU.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheLRU.swift; path = Classes/CacheLRU.swift; sourceTree = "<group>"; };
+		BCE3D757D7B47DDD4A80BE374F83B3AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CEB74E5FF7C57647556211FA98BFDF0A /* CacheLRU.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CacheLRU.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3C09E17AD1AEC543FDF13D73E2E2A2E /* Pods-CacheLRU_Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CacheLRU_Demo-dummy.m"; sourceTree = "<group>"; };
+		D49182F659576824A7A6CA379C07DD45 /* CacheLRU-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheLRU-prefix.pch"; sourceTree = "<group>"; };
 		D523DFAA4AE9333A3F4A9496898193F0 /* Pods-CacheLRU_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CacheLRU_Demo.release.xcconfig"; sourceTree = "<group>"; };
-		DC0C2FF718F6C33C6AC9B892AF37C6E3 /* CacheLRU-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheLRU-umbrella.h"; sourceTree = "<group>"; };
-		F4BB521EE39E200541126B428BB012D8 /* CacheLRU-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CacheLRU-dummy.m"; sourceTree = "<group>"; };
+		E50BB8AEB9A46CAEDC838467511317DE /* CacheLRU-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheLRU-umbrella.h"; sourceTree = "<group>"; };
+		EA35A2B4F14C428D9217D6CC8511E857 /* DoublyLinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublyLinkedList.swift; path = Classes/DoublyLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,42 +100,22 @@
 		572BD67750A4C0345AEC9A7C6CA4C77B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C68EE54FE4D230E711843BB91FEBE00F /* CacheLRU */,
+				D801D133D0770E37B12193D7A9D22FF6 /* CacheLRU */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9572FBDAD6443EF81C86FE9F202D918C /* Pod */ = {
+		8CA2AB1A288C80F9F7F5CF16557EAD58 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				94DCF7BC4960DEE927FD72796D2B7E28 /* CacheLRU.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A4692AB648C0634D61A71B55A672F994 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				71CEC4C095762A17789F5E92E4103E7F /* CacheLRU.modulemap */,
-				72B5F830FFC9486CB88032C874B5FD5D /* CacheLRU.xcconfig */,
-				F4BB521EE39E200541126B428BB012D8 /* CacheLRU-dummy.m */,
-				C2478A9D2F3CDDA304E10726687FC231 /* CacheLRU-prefix.pch */,
-				DC0C2FF718F6C33C6AC9B892AF37C6E3 /* CacheLRU-umbrella.h */,
+				A6F3ADC001AA6AE9B6601CEF24488BC1 /* CacheLRU.modulemap */,
+				A48EA4FC187883EC14DEA6F481AAA60F /* CacheLRU.xcconfig */,
+				18E2BBA273B6A0E04A27F534E63E9E57 /* CacheLRU-dummy.m */,
+				D49182F659576824A7A6CA379C07DD45 /* CacheLRU-prefix.pch */,
+				E50BB8AEB9A46CAEDC838467511317DE /* CacheLRU-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "CacheLRU_Demo/Pods/Target Support Files/CacheLRU";
-			sourceTree = "<group>";
-		};
-		C68EE54FE4D230E711843BB91FEBE00F /* CacheLRU */ = {
-			isa = PBXGroup;
-			children = (
-				8E9BA7502B8C0D1CFFA649D3C06BCCD4 /* CacheLRU.swift */,
-				6628B18138054D621E588EB99FC1558C /* DoublyLinkedList.swift */,
-				9572FBDAD6443EF81C86FE9F202D918C /* Pod */,
-				A4692AB648C0634D61A71B55A672F994 /* Support Files */,
-			);
-			name = CacheLRU;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -148,11 +129,32 @@
 			);
 			sourceTree = "<group>";
 		};
+		D801D133D0770E37B12193D7A9D22FF6 /* CacheLRU */ = {
+			isa = PBXGroup;
+			children = (
+				A77934E642D422A862D5FB601FD8A28B /* CacheLRU.swift */,
+				EA35A2B4F14C428D9217D6CC8511E857 /* DoublyLinkedList.swift */,
+				DAA9FAF91393478812CF98B3A8AF2343 /* Pod */,
+				8CA2AB1A288C80F9F7F5CF16557EAD58 /* Support Files */,
+			);
+			name = CacheLRU;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAA9FAF91393478812CF98B3A8AF2343 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CEB74E5FF7C57647556211FA98BFDF0A /* CacheLRU.podspec */,
+				BCE3D757D7B47DDD4A80BE374F83B3AE /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +326,7 @@
 		};
 		4FA89144A3E2E3EC5333700387B10173 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B5F830FFC9486CB88032C874B5FD5D /* CacheLRU.xcconfig */;
+			baseConfigurationReference = A48EA4FC187883EC14DEA6F481AAA60F /* CacheLRU.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -351,7 +353,7 @@
 		};
 		61C5C4F08F8E8CE1D013531171352EDC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B5F830FFC9486CB88032C874B5FD5D /* CacheLRU.xcconfig */;
+			baseConfigurationReference = A48EA4FC187883EC14DEA6F481AAA60F /* CacheLRU.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
