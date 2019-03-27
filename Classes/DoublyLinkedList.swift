@@ -68,6 +68,7 @@ final class DoublyLinkedList<T> {
         node.previous = nil
     }
     
+    @discardableResult
     func removeLast() -> Node<T>? {
         guard let tail = self.tail else { return nil }
         
